@@ -13,7 +13,7 @@ composer require hulang/think-paginator-driver
 
 内含以下前端框架的分页驱动
 
-* [Bootstrap](#Bootstrap)
+* [Bootstrap](#bootstrap4bootstrap5)
 * [Layui](#layui)
 * [Amaze UI](#amaze-ui)
 * [Foundation](#foundation)
