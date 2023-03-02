@@ -3,7 +3,7 @@
 ### 环境
 
 - php >= 7.2.5
-- think-orm 2.0/3.0
+- thinkphp-orm 2.0/3.0
 
 ### 安装
 
