@@ -71,7 +71,7 @@ return [
 ```
 
 ### Amaze UI
-框架官方文档：https://amazeui.clouddeep.cn/css/pagination/
+框架官方文档：http://amazeui.shopxo.net/widgets/pagination/
 ```php
 \think\facade\App::bind('think\Paginator', \hulang\thinkPaginatorDriver\AmazeUI::class);
 ```
