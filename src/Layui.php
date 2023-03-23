@@ -15,7 +15,7 @@ class Layui extends Paginator
     /**
      * 上一页按钮
      * @param string $text 按钮文字
-     * @return string
+     * @return mixed|string
      */
     protected function getPreviousButton(string $text = "&laquo;"): string
     {
@@ -31,7 +31,7 @@ class Layui extends Paginator
     /**
      * 下一页按钮
      * @param string $text 按钮文字
-     * @return string
+     * @return mixed|string
      */
     protected function getNextButton(string $text = '&raquo;'): string
     {
@@ -46,7 +46,7 @@ class Layui extends Paginator
 
     /**
      * 页码按钮
-     * @return string
+     * @return mixed|string
      */
     protected function getLinks(): string
     {
@@ -98,7 +98,7 @@ class Layui extends Paginator
 
     /**
      * 渲染分页html
-     * @return string
+     * @return mixed|string
      */
     public function render()
     {
@@ -124,7 +124,7 @@ class Layui extends Paginator
      * 生成一个可点击的按钮
      * @param  string $url 按钮链接地址
      * @param  string $text 按钮文字
-     * @return string
+     * @return mixed|string
      */
     protected function getAvailablePageWrapper(string $url, string $text): string
     {
@@ -134,7 +134,7 @@ class Layui extends Paginator
     /**
      * 生成一个禁用的按钮
      * @param  string $text 按钮文字
-     * @return string
+     * @return mixed|string
      */
     protected function getDisabledTextWrapper(string $text): string
     {
@@ -144,7 +144,7 @@ class Layui extends Paginator
     /**
      * 生成一个激活的按钮
      * @param  string $text 按钮文字
-     * @return string
+     * @return mixed|string
      */
     protected function getActivePageWrapper(string $text): string
     {
@@ -153,7 +153,7 @@ class Layui extends Paginator
 
     /**
      * 生成省略号按钮
-     * @return string
+     * @return mixed|string
      */
     protected function getDots(): string
     {
@@ -163,7 +163,7 @@ class Layui extends Paginator
     /**
      * 批量生成页码按钮.
      * @param  array $urls 按钮链接地址
-     * @return string
+     * @return mixed|string
      */
     protected function getUrlLinks(array $urls): string
     {
@@ -180,7 +180,7 @@ class Layui extends Paginator
      * 生成普通页码按钮
      * @param  string $url 按钮链接地址
      * @param  string $text 按钮文字
-     * @return string
+     * @return mixed|string
      */
     protected function getPageLinkWrapper(string $url, string $text): string
     {
