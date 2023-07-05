@@ -2,8 +2,8 @@
 
 ### 环境
 
-- php >= 7.2.5
-- thinkphp-orm 2.0/3.0
+- php >=8.0.0
+- thinkphp-orm 3.0
 
 ### 安装
 
