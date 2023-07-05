@@ -1,6 +1,6 @@
 {
     "name": "hulang/think-paginator-driver",
-    "description": "ThinkPHP 6.1+ ORM 分页驱动库",
+    "description": "ThinkPHP 8.0.0 ORM 分页驱动库",
     "keywords": ["thinkphp", "paginator", "driver"],
     "license": "MIT",
     "authors": [{
